@@ -1,0 +1,15 @@
+{
+  "packages": {
+    "iron-router": {},
+    "bootstrap-3": {},
+    "googleAnalytics": {},
+    "facebook-sdk": {},
+    "twitter-streaming": {},
+    "dimple": {},
+    "chance": {},
+    "numeral": {},
+    "autoform": {},
+    "notifications": {},
+    "accounts-ui-bootstrap-3": {}
+  }
+}

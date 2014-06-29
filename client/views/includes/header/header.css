@@ -1,0 +1,28 @@
+/*****************************************************************************/
+/* Header: Style */
+/*****************************************************************************/
+
+.header {
+    background-color: #ffffff;
+}
+
+.navbar-header {
+    margin-left: 10%!important;
+}
+.navbar-header img {
+    width: 90%;
+}
+
+.navbar-right {
+    padding-right: 10%;
+    position: relative;
+    bottom: 25px;
+}
+
+.navbar-right li {
+    margin-right: 4px;
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+}

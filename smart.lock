@@ -1,0 +1,95 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "iron-router": {},
+      "bootstrap-3": {},
+      "googleAnalytics": {},
+      "facebook-sdk": {},
+      "twitter-streaming":{},
+      "dimple": {},
+      "chance": {},
+      "numeral": {},
+      "autoform": {},
+      "notifications": {},
+      "accounts-ui-bootstrap-3": {}
+    },
+    "packages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.7.1",
+        "commit": "d1ffb3f06ea4c112132b030f2eb1a70b81675ecb"
+      },
+      "bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
+        "tag": "v3.1.1-1",
+        "commit": "63dd38968828bb8963636df93e9a1c45e2dfe67e"
+      },
+      "googleAnalytics": {
+        "git": "https://github.com/yasaricli/googleAnalytics.git",
+        "tag": "v0.0.8",
+        "commit": "2c47f147d64554e870c7c02691d5c2efde040ee3"
+      },
+      "facebook-sdk": {
+        "git": "https://github.com/hugesuccess/facebook-sdk.git",
+        "tag": "v0.0.44",
+        "commit": "cb71b860085ec6453b61644b31f6351e7de2c1b0"
+      },
+      "twitter-streaming": {
+        "git": "https://github.com/sebsylvester/meteor-twitter.git",
+        "tag": "v0.2.0",
+        "commit": "2f785ad6d10dc9b54a5a07cac09ed003214869ad"
+      },
+      "dimple": {
+        "git": "https://github.com/sergeyt/meteor-dimple.git",
+        "tag": "v1.1.5",
+        "commit": "10abccac5cf973626f0e97c1fd8b67318477eb69"
+      },
+      "chance": {
+        "git": "https://github.com/jvanveen/meteor-chance.git",
+        "tag": "v1.0.2",
+        "commit": "c06db16783744e5c1f4c36668a14240086caa1c7"
+      },
+      "numeral": {
+        "git": "https://github.com/vsivsi/meteor-numeral.git",
+        "tag": "v1.5.3",
+        "commit": "bdc97fc69bee7dadae1fc0f97fa6d9d76a03e73d"
+      },
+      "autoform": {
+        "git": "https://github.com/aldeed/meteor-autoform.git",
+        "tag": "v0.13.5",
+        "commit": "27dd5b912eeba687b228a6a7c2c14eef63b12cca"
+      },
+      "notifications": {
+        "git": "https://github.com/gfk-ba/meteor-notifications.git",
+        "tag": "v0.5.2",
+        "commit": "01cf9e884edd09d4599a682868e2fc2a21254faa"
+      },
+      "accounts-ui-bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-accounts-ui-bootstrap-3.git",
+        "tag": "v0.3.0-1",
+        "commit": "93ffa5d0e325dc7026de89f6d90c178fa04bdd3a"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.4",
+        "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
+      },
+      "simple-schema": {
+        "git": "https://github.com/aldeed/meteor-simple-schema.git",
+        "tag": "v0.5.1",
+        "commit": "a29956b34d03a4591dbd0eaed9d37009ef48b8db"
+      },
+      "collection2": {
+        "git": "https://github.com/aldeed/meteor-collection2.git",
+        "tag": "v0.4.2",
+        "commit": "4ff4b707bec8be434919730bf101325adb215444"
+      },
+      "moment": {
+        "git": "https://github.com/acreeger/meteor-moment.git",
+        "tag": "v2.6.0",
+        "commit": "26156df681750fd6e6ed77043eef32b6653ebbdf"
+      }
+    }
+  }
+}

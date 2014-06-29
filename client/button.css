@@ -1,0 +1,17 @@
+.button a {
+    padding: 20px;
+    color: #fff;
+    background-color: #F16131;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 0;
+    text-decoration: none;
+}
+
+.button_container{
+    padding-bottom: 10px;
+    background-color: #555555;
+    margin: 10px;
+}

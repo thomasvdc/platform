@@ -1,0 +1,29 @@
+/*****************************************************************************/
+/* LandingPage: Style */
+/*****************************************************************************/
+
+.mainPage {
+
+}
+
+body
+{
+    background-image: url('/resources/grid.png');
+    background-color:#white;
+}
+
+.mainBanner {
+    background-color: #F16131;
+    padding-top: 10px;
+    height: 300px;
+}
+
+#womanHand {
+    display: block; margin: auto;
+}
+
+.message.mainBanner {
+    color: #ffffff;
+}
+
+

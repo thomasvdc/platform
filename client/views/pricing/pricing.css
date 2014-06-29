@@ -1,0 +1,176 @@
+/*****************************************************************************/
+/* Pricing: Style */
+/*****************************************************************************/
+
+price {
+  font-size: 4em;
+}
+ 
+.price-cents {
+  vertical-align: super;
+  font-size: 50%;
+}
+ 
+.price-month {
+  font-size: 35%;
+  font-style: italic;
+}
+.panel {
+-webkit-transition-property : scale;
+-webkit-transition-duration : 0.2s;
+-webkit-transition-timing-function : ease-in-out;
+-moz-transition : all 0.2s ease-in-out;  
+}
+ 
+.panel:hover {
+box-shadow: 0 0 10px rgba(0,0,0,.5);
+-moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
+-webkit-box-shadow: 0 0 10px rgba(0,0,0,.5);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+}
+
+.text-recommanded {
+  color: #fff;
+}
+
+a.text-recommanded:hover {
+  color: #843534;
+}
+
+.bg-recommanded {
+  background-color: #ff5411;
+}
+a.bg-recommanded:hover {
+  background-color: #e4b9b9;
+}
+
+.table > thead > tr > td.recommanded,
+.table > tbody > tr > td.recommanded,
+.table > tfoot > tr > td.recommanded,
+.table > thead > tr > th.recommanded,
+.table > tbody > tr > th.recommanded,
+.table > tfoot > tr > th.recommanded,
+.table > thead > tr.recommanded > td,
+.table > tbody > tr.recommanded > td,
+.table > tfoot > tr.recommanded > td,
+.table > thead > tr.recommanded > th,
+.table > tbody > tr.recommanded > th,
+.table > tfoot > tr.recommanded > th {
+  background-color: #ff5411;
+}
+.table-hover > tbody > tr > td.recommanded:hover,
+.table-hover > tbody > tr > th.recommanded:hover,
+.table-hover > tbody > tr.recommanded:hover > td,
+.table-hover > tbody > tr.recommanded:hover > th {
+  background-color: #ebcccc;
+}
+
+.btn-recommanded {
+  color: #fff;
+  background-color: #ff5411;
+  border-color: #d43f3a;
+}
+.btn-recommanded:hover,
+.btn-recommanded:focus,
+.btn-recommanded:active,
+.btn-recommanded.active,
+.open .dropdown-toggle.btn-recommanded {
+  color: #fff;
+  background-color: #d2322d;
+  border-color: #ac2925;
+}
+.btn-recommanded:active,
+.btn-recommanded.active,
+.open .dropdown-toggle.btn-recommanded {
+  background-image: none;
+}
+.btn-recommanded.disabled,
+.btn-recommanded[disabled],
+fieldset[disabled] .btn-recommanded,
+.btn-recommanded.disabled:hover,
+.btn-recommanded[disabled]:hover,
+fieldset[disabled] .btn-recommanded:hover,
+.btn-recommanded.disabled:focus,
+.btn-recommanded[disabled]:focus,
+fieldset[disabled] .btn-recommanded:focus,
+.btn-recommanded.disabled:active,
+.btn-recommanded[disabled]:active,
+fieldset[disabled] .btn-recommanded:active,
+.btn-recommanded.disabled.active,
+.btn-recommanded[disabled].active,
+fieldset[disabled] .btn-recommanded.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.btn-recommanded .badge {
+  color: #cc3300;
+  background-color: #fff;
+}
+
+.label-recommanded {
+  background-color: #d9534f;
+}
+.label-recommanded[href]:hover,
+.label-recommanded[href]:focus {
+  background-color: #c9302c;
+}
+
+.alert-recommanded {
+  color: #fff;
+  background-color: #ff5411;
+  border-color: #ebccd1;
+}
+.alert-recommanded hr {
+  border-top-color: #e4b9c0;
+}
+.alert-recommanded .alert-link {
+  color: #843534;
+}
+
+.progress-bar-recommanded {
+  background-color: #d9534f;
+}
+.progress-striped .progress-bar-recommanded {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+}
+
+.list-group-item-recommanded {
+  color: #fff;
+  background-color: #ff5411;
+}
+a.list-group-item-recommanded {
+  color: #fff;
+}
+a.list-group-item-recommanded .list-group-item-heading {
+  color: inherit;
+}
+a.list-group-item-recommanded:hover,
+a.list-group-item-recommanded:focus {
+  color: #fff;
+  background-color: #ebcccc;
+}
+a.list-group-item-recommanded.active,
+a.list-group-item-recommanded.active:hover,
+a.list-group-item-recommanded.active:focus {
+  color: #fff;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.panel-recommanded {
+  border-color: #ebccd1;
+}
+.panel-recommanded > .panel-heading {
+  color: #fff;
+  background-color: #ff5411;
+  border-color: #ebccd1;
+}
+.panel-recommanded > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #ebccd1;
+}
+.panel-recommanded > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #ebccd1;
+}
+

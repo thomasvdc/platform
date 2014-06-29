@@ -1,0 +1,46 @@
+<template name="Homepage">
+   <div class="row">
+        <div class="jumbotron col-lg-offset-1 col-lg-10">
+
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="container-fluid">
+                        <img class="img-responsive" src="logoshowcharts.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+
+            <hr/>
+
+            <h3>
+                Take the noice out of business analytics.
+            </h3>
+
+            <hr/>
+
+            <div class="row">
+                <div class="col-lg-4 text-center col-lg-offset-4">
+
+                    <form class="form-inline" role="">
+
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Enter email">
+                        </div>
+
+                        <button id="signup" class="btn btn-default">Sign up</button>
+                    </form>
+
+
+                </div>
+            </div>
+
+            <div style="height: 30px" class="row">
+                <div class="col-lg-6 col-lg-offset-3">
+                    {{> notifications}}
+                </div>
+            </div>
+
+        </div>
+        <br>
+    </div>
+</template>
