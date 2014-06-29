@@ -20,7 +20,7 @@ Router.map(function () {
     Example:
       this.route('home', {path: '/'});
   */
-  this.route('homepage', {path: '/home_page',
+  this.route('homepage', {path: '/homepage',
       waitOn: function(){
           return Meteor.subscribe("twitterFeed");
       }
