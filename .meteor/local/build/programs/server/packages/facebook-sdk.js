@@ -1,38 +1,22 @@
 (function () {
 
 /* Imports */
+var Spacebars = Package.spacebars.Spacebars;
+var UI = Package.ui.UI;
+var Handlebars = Package.ui.Handlebars;
 var Meteor = Package.meteor.Meteor;
+var MongoInternals = Package['mongo-livedata'].MongoInternals;
+var DDP = Package.livedata.DDP;
+var DDPServer = Package.livedata.DDPServer;
+var WebApp = Package.webapp.WebApp;
+var main = Package.webapp.main;
+var WebAppInternals = Package.webapp.WebAppInternals;
+var HTML = Package.htmljs.HTML;
 
-/* Package-scope variables */
-var Facebook, keys;
-
-(function () {
-
-///////////////////////////////////////////////////////////////////////
-//                                                                   //
-// packages/facebook-sdk/main.js                                     //
-//                                                                   //
-///////////////////////////////////////////////////////////////////////
-                                                                     //
-Facebook = Npm.require('facebook-node-sdk');                         // 1
-if (keys = Meteor.settings['facebook-node-sdk']) {                   // 2
-    // overwrite Facebook with ready to use object                   // 3
-    Facebook = new Facebook({                                        // 4
-        appID: keys.app_id,                                          // 5
-        secret: keys.app_secret                                      // 6
-    });                                                              // 7
-} else {                                                             // 8
-    // DIY                                                           // 9
-}                                                                    // 10
-///////////////////////////////////////////////////////////////////////
-
-}).call(this);
 
 
 /* Exports */
 if (typeof Package === 'undefined') Package = {};
-Package['facebook-sdk'] = {
-  Facebook: Facebook
-};
+Package['facebook-sdk'] = {};
 
 })();

@@ -442,15 +442,37 @@
       "hash": "f7089ca925fa851d324c2b9a3eff4eda66050536"
     },
     {
+      "path": "packages/spacebars.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/spacebars.js?f49560fc90a8d71b7637d9596696078881b8c812",
+      "sourceMap": "packages/spacebars.js.map",
+      "sourceMapUrl": "/packages/f49560fc90a8d71b7637d9596696078881b8c812.map",
+      "size": 30285,
+      "hash": "ef3b5255d03a0fba96486815e08cf26918ea5b70"
+    },
+    {
+      "path": "packages/webapp.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/webapp.js?e1be090051b82f046484dccc2de7d747e50c7328",
+      "sourceMap": "packages/webapp.js.map",
+      "sourceMapUrl": "/packages/e1be090051b82f046484dccc2de7d747e50c7328.map",
+      "size": 3173,
+      "hash": "67f90408f968dde9a39713ebfe55c209c99cbc02"
+    },
+    {
       "path": "packages/facebook-sdk.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/facebook-sdk.js?0aaf07efc544d44c032b6caf0daa815fcc3ed23a",
+      "url": "/packages/facebook-sdk.js?53e49c56776118b7dc0d296785e722bc1c8f335b",
       "sourceMap": "packages/facebook-sdk.js.map",
-      "sourceMapUrl": "/packages/0aaf07efc544d44c032b6caf0daa815fcc3ed23a.map",
-      "size": 1431,
-      "hash": "300a7005de43aa0cbe428ffc4b8cb8a3df99040f"
+      "sourceMapUrl": "/packages/53e49c56776118b7dc0d296785e722bc1c8f335b.map",
+      "size": 18745,
+      "hash": "c39bce5b97c315e60a6bcf90c634c8ac703c1e0d"
     },
     {
       "path": "packages/twitter-streaming.js",
@@ -618,71 +640,49 @@
       "hash": "72d4362a8e4a9e708e961ec99100bdfce1c91640"
     },
     {
-      "path": "packages/webapp.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/packages/webapp.js?e1be090051b82f046484dccc2de7d747e50c7328",
-      "sourceMap": "packages/webapp.js.map",
-      "sourceMapUrl": "/packages/e1be090051b82f046484dccc2de7d747e50c7328.map",
-      "size": 3173,
-      "hash": "67f90408f968dde9a39713ebfe55c209c99cbc02"
-    },
-    {
-      "path": "packages/spacebars.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/packages/spacebars.js?f49560fc90a8d71b7637d9596696078881b8c812",
-      "sourceMap": "packages/spacebars.js.map",
-      "sourceMapUrl": "/packages/f49560fc90a8d71b7637d9596696078881b8c812.map",
-      "size": 30285,
-      "hash": "ef3b5255d03a0fba96486815e08cf26918ea5b70"
-    },
-    {
       "path": "packages/global-imports.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/global-imports.js?ae2604f19d14867bb86489e8ffcc5ec64bfbd518",
-      "size": 1235,
-      "hash": "ae2604f19d14867bb86489e8ffcc5ec64bfbd518"
+      "url": "/packages/global-imports.js?ea235575888815b18cbf4dae8a290405892354f7",
+      "size": 1190,
+      "hash": "ea235575888815b18cbf4dae8a290405892354f7"
     },
     {
       "path": "app/client/views/dashboard/first_row_chart/chart_left_up/template.chart_left_up.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/dashboard/first_row_chart/chart_left_up/template.chart_left_up.js?e0a6518a966ed9b624e047b6328a54493fcf88b6",
-      "size": 176,
-      "hash": "e0a6518a966ed9b624e047b6328a54493fcf88b6"
+      "url": "/client/views/dashboard/first_row_chart/chart_left_up/template.chart_left_up.js?ffb2668e9db9aee09ee04b9776d77d8d1b1f6ec2",
+      "size": 733,
+      "hash": "ffb2668e9db9aee09ee04b9776d77d8d1b1f6ec2"
     },
     {
       "path": "app/client/views/dashboard/first_row_chart/chart_right_up/template.chart_right_up.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/dashboard/first_row_chart/chart_right_up/template.chart_right_up.js?f790704e5d144d69663a8a226f1458ff1cf7b24e",
-      "size": 182,
-      "hash": "f790704e5d144d69663a8a226f1458ff1cf7b24e"
+      "url": "/client/views/dashboard/first_row_chart/chart_right_up/template.chart_right_up.js?cb8e08525021c4dc5be62bfaa8ef225cc52eec0e",
+      "size": 727,
+      "hash": "cb8e08525021c4dc5be62bfaa8ef225cc52eec0e"
     },
     {
       "path": "app/client/views/dashboard/second_row_chart/second_row_chart_left/template.second_row_chart_left.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/dashboard/second_row_chart/second_row_chart_left/template.second_row_chart_left.js?129b5e69aab133f55597c37d9f9c4687c932b3a6",
-      "size": 190,
-      "hash": "129b5e69aab133f55597c37d9f9c4687c932b3a6"
+      "url": "/client/views/dashboard/second_row_chart/second_row_chart_left/template.second_row_chart_left.js?650db29defb670e3a3657dd2e6a30dfe303baf92",
+      "size": 795,
+      "hash": "650db29defb670e3a3657dd2e6a30dfe303baf92"
     },
     {
       "path": "app/client/views/dashboard/second_row_chart/second_row_chart_right/template.second_row_chart_right.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/dashboard/second_row_chart/second_row_chart_right/template.second_row_chart_right.js?386fd6d2ae9e1f6292e0cdea40d9225529f4af9e",
-      "size": 200,
-      "hash": "386fd6d2ae9e1f6292e0cdea40d9225529f4af9e"
+      "url": "/client/views/dashboard/second_row_chart/second_row_chart_right/template.second_row_chart_right.js?beebff4555bed035481d98382d0c4c6c4f7befb1",
+      "size": 732,
+      "hash": "beebff4555bed035481d98382d0c4c6c4f7befb1"
     },
     {
       "path": "app/client/views/includes/footer/template.footer.js",
@@ -743,9 +743,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/dashboard/template.dashboard.js?d7c19eeabf12d72233c77d8ea3a5839df37d216a",
-      "size": 1305,
-      "hash": "d7c19eeabf12d72233c77d8ea3a5839df37d216a"
+      "url": "/client/views/dashboard/template.dashboard.js?fa7938ec51b333eee9a1679a9b471913d2a6592f",
+      "size": 1766,
+      "hash": "fa7938ec51b333eee9a1679a9b471913d2a6592f"
     },
     {
       "path": "app/client/views/google_analytic/template.google_analytic.js",
@@ -833,45 +833,45 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/dashboard/first_row_chart/chart_left_up/chart_left_up.js?14355b3e32ad5a86b83d371a7a703a8d504a88a5",
-      "size": 1221,
-      "hash": "14355b3e32ad5a86b83d371a7a703a8d504a88a5"
+      "url": "/client/views/dashboard/first_row_chart/chart_left_up/chart_left_up.js?cfe445a3d58d1548dbb699fd3ca8878890438dfd",
+      "size": 1344,
+      "hash": "cfe445a3d58d1548dbb699fd3ca8878890438dfd"
     },
     {
       "path": "app/client/views/dashboard/first_row_chart/chart_right_up/DATA_chart_right_up.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/dashboard/first_row_chart/chart_right_up/DATA_chart_right_up.js?a6275a3a75e956c3b43a4bc86436aaa5aa48d93b",
-      "size": 7859,
-      "hash": "a6275a3a75e956c3b43a4bc86436aaa5aa48d93b"
+      "url": "/client/views/dashboard/first_row_chart/chart_right_up/DATA_chart_right_up.js?cb25156e192ea6d18db426556359de09ebf055f8",
+      "size": 7445,
+      "hash": "cb25156e192ea6d18db426556359de09ebf055f8"
     },
     {
       "path": "app/client/views/dashboard/first_row_chart/chart_right_up/chart_right_up.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/dashboard/first_row_chart/chart_right_up/chart_right_up.js?f53a98c93e8e628eeed088c676b75947337dba0d",
-      "size": 2817,
-      "hash": "f53a98c93e8e628eeed088c676b75947337dba0d"
+      "url": "/client/views/dashboard/first_row_chart/chart_right_up/chart_right_up.js?08216621ee8086fc69f3f6abb400557d6a0b633c",
+      "size": 2269,
+      "hash": "08216621ee8086fc69f3f6abb400557d6a0b633c"
     },
     {
       "path": "app/client/views/dashboard/second_row_chart/second_row_chart_left/second_row_chart_left.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/dashboard/second_row_chart/second_row_chart_left/second_row_chart_left.js?93c3e865694e9f42a68cde89db9fc09a9541285a",
-      "size": 2569,
-      "hash": "93c3e865694e9f42a68cde89db9fc09a9541285a"
+      "url": "/client/views/dashboard/second_row_chart/second_row_chart_left/second_row_chart_left.js?3de3bf7009a066c857dab675eee3eb16bea2134b",
+      "size": 3349,
+      "hash": "3de3bf7009a066c857dab675eee3eb16bea2134b"
     },
     {
       "path": "app/client/views/dashboard/second_row_chart/second_row_chart_right/second_row_chart_right.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/dashboard/second_row_chart/second_row_chart_right/second_row_chart_right.js?8705d33bc94bd0415d05b7754d5557670cf95c00",
-      "size": 903,
-      "hash": "8705d33bc94bd0415d05b7754d5557670cf95c00"
+      "url": "/client/views/dashboard/second_row_chart/second_row_chart_right/second_row_chart_right.js?b029f357180569e6b4cdbfa0c593a4a8ae991a89",
+      "size": 871,
+      "hash": "b029f357180569e6b4cdbfa0c593a4a8ae991a89"
     },
     {
       "path": "app/client/views/includes/footer/footer.js",
@@ -932,9 +932,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/dashboard/dashboard.js?114cb7a2ebe2b3d247d4f8a6b6068184cac7766c",
-      "size": 2415,
-      "hash": "114cb7a2ebe2b3d247d4f8a6b6068184cac7766c"
+      "url": "/client/views/dashboard/dashboard.js?a20cba865e2ab703ed7613e4f20a80a3324330e8",
+      "size": 3037,
+      "hash": "a20cba865e2ab703ed7613e4f20a80a3324330e8"
     },
     {
       "path": "app/client/views/google_analytic/google_analytic.js",
@@ -1155,15 +1155,15 @@
       "hash": "58af5a22f1330c167b2c38e7daacf537e1c5217d"
     },
     {
-      "path": "58bcefe20da5ebe8bee764cd726ca652763d663c.css",
+      "path": "1ba0c6a16542cfd095cd529da9674fda92d6a0a6.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/58bcefe20da5ebe8bee764cd726ca652763d663c.css",
-      "sourceMap": "58bcefe20da5ebe8bee764cd726ca652763d663c.css.map",
-      "sourceMapUrl": "/58bcefe20da5ebe8bee764cd726ca652763d663c.map",
-      "size": 200608,
-      "hash": "33b23a868dda0208d0f68b7665cdd09e87a8970a"
+      "url": "/1ba0c6a16542cfd095cd529da9674fda92d6a0a6.css",
+      "sourceMap": "1ba0c6a16542cfd095cd529da9674fda92d6a0a6.css.map",
+      "sourceMapUrl": "/1ba0c6a16542cfd095cd529da9674fda92d6a0a6.map",
+      "size": 201117,
+      "hash": "3a8d4c4bfd9b9c182a21f5f0bb2e93dbb14ad547"
     },
     {
       "path": "packages/bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.eot",

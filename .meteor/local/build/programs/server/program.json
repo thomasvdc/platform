@@ -247,8 +247,12 @@
       "sourceMapRoot": "packages"
     },
     {
+      "path": "packages/templating.js",
+      "sourceMap": "packages/templating.js.map",
+      "sourceMapRoot": "packages"
+    },
+    {
       "path": "packages/facebook-sdk.js",
-      "node_modules": "npm/facebook-sdk/main/node_modules",
       "sourceMap": "packages/facebook-sdk.js.map",
       "sourceMapRoot": "packages"
     },
@@ -288,11 +292,6 @@
     {
       "path": "packages/autoform.js",
       "sourceMap": "packages/autoform.js.map",
-      "sourceMapRoot": "packages"
-    },
-    {
-      "path": "packages/templating.js",
-      "sourceMap": "packages/templating.js.map",
       "sourceMapRoot": "packages"
     },
     {

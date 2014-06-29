@@ -1,35 +1,40 @@
 <template name="Dashboard">
     {{>Header}}
+
     <div class="row">
-        <div class="text-center col-lg-offset-1 col-lg-10">
-            <h1>Key metric</h1>
-            <h4>Your sales and your facebook likes are correlating by {{correlation}} </h4>
+
+    </div>
+
+
+    <div class="chartsDavy">
+        <div class=" panel  firstCard text-center infoCard">
+            {{>ChartLeftUp pickNthElem cardDatas 0}}
+        </div>
+
+
+        <div class=" panel text-center infoCard">
+            {{>ChartRightUp pickNthElem cardDatas 1}}
+        </div>
+        <div class=" panel  firstCard text-center infoCard ">
+            {{>SecondRowChartLeft pickNthElem cardDatas 2}}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+
+            <div class="row">
+
+
+
+                <!--<div class="col-lg-4 col-lg-offset-2 panel text-center infoCard">-->
+                    <!--{{>SecondRowChartRight pickNthElem cardDatas 3}}-->
+                <!--</div>-->
+            </div>
         </div>
     </div>
 
 
-    <div class="row">
-        <div class="col-lg-5 well col-lg-offset-1">
 
-            {{>ChartLeftUp}}
 
-        </div>
-
-        <div class="col-lg-5 ">
-
-            {{>ChartRightUp}}
-
-        </div>
-
-    </div>
-
-    <div class="row">
-        <div class="well col-lg-offset-1 col-lg-5">
-            {{>SecondRowChartLeft}}
-        </div>
-        <div class="col-lg-5 well">
-
-            {{>SecondRowChartRight}}
-        </div>
-    </div>
 </template>
