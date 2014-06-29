@@ -1,0 +1,1472 @@
+{
+  "format": "browser-program-pre1",
+  "manifest": [
+    {
+      "path": "packages/underscore.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18",
+      "sourceMap": "packages/underscore.js.map",
+      "sourceMapUrl": "/packages/0a80a8623e1b40b5df5a05582f288ddd586eaa18.map",
+      "size": 150753,
+      "hash": "d9555dfa7f93e1d1a9738f5ba5c9251eb7482209"
+    },
+    {
+      "path": "packages/meteor.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/meteor.js?148e9381d225ecad703f4b858769b636ff7a2537",
+      "sourceMap": "packages/meteor.js.map",
+      "sourceMapUrl": "/packages/148e9381d225ecad703f4b858769b636ff7a2537.map",
+      "size": 85093,
+      "hash": "fffd7c6aaf3472addff82f67c09fb3f327947e43"
+    },
+    {
+      "path": "packages/json.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/json.js?e22856eae714c681199eabc5c0710b904b125554",
+      "sourceMap": "packages/json.js.map",
+      "sourceMapUrl": "/packages/e22856eae714c681199eabc5c0710b904b125554.map",
+      "size": 58410,
+      "hash": "22336e2adfc7bd2e7de733d5779ed503dddcb1f9"
+    },
+    {
+      "path": "packages/ejson.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/ejson.js?dcf7f22218141278194ba57f79fa891d3f0b53b1",
+      "sourceMap": "packages/ejson.js.map",
+      "sourceMapUrl": "/packages/dcf7f22218141278194ba57f79fa891d3f0b53b1.map",
+      "size": 69627,
+      "hash": "82a55f378f265eeaa07b891187b3a4ea14eedbcf"
+    },
+    {
+      "path": "packages/logging.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/logging.js?0de00019cf57ae305903f15baf5dc8e10f973ded",
+      "sourceMap": "packages/logging.js.map",
+      "sourceMapUrl": "/packages/0de00019cf57ae305903f15baf5dc8e10f973ded.map",
+      "size": 27875,
+      "hash": "8698e3fe608428b2851eef33b82a69fd41037459"
+    },
+    {
+      "path": "packages/reload.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/reload.js?ad0e94b5b63bbe79ab30e9dad4e6eb91694f5875",
+      "sourceMap": "packages/reload.js.map",
+      "sourceMapUrl": "/packages/ad0e94b5b63bbe79ab30e9dad4e6eb91694f5875.map",
+      "size": 20095,
+      "hash": "209c92ea52e2c3f800364ed6d63ac763e91da413"
+    },
+    {
+      "path": "packages/deps.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/deps.js?91f1235baecd83915f7d3a7328526dbba41482be",
+      "sourceMap": "packages/deps.js.map",
+      "sourceMapUrl": "/packages/91f1235baecd83915f7d3a7328526dbba41482be.map",
+      "size": 37508,
+      "hash": "17962dd8fa6117199a97669724f7b78211c81ca1"
+    },
+    {
+      "path": "packages/random.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/random.js?fe7b46080c91ce482acf6fc326afbc5b176f0502",
+      "sourceMap": "packages/random.js.map",
+      "sourceMapUrl": "/packages/fe7b46080c91ce482acf6fc326afbc5b176f0502.map",
+      "size": 24166,
+      "hash": "d6e2261568ba2089ea3d862f51c6afa3a3b920d3"
+    },
+    {
+      "path": "packages/retry.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/retry.js?1f1dd2c35d300110fdaba51ce4473583bc3bf031",
+      "sourceMap": "packages/retry.js.map",
+      "sourceMapUrl": "/packages/1f1dd2c35d300110fdaba51ce4473583bc3bf031.map",
+      "size": 7312,
+      "hash": "20892ded5f347ee3d88affba1e14a92381d15292"
+    },
+    {
+      "path": "packages/check.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/check.js?a54cf3c7b3abe9208d064621eb80a3ecaf2f4add",
+      "sourceMap": "packages/check.js.map",
+      "sourceMapUrl": "/packages/a54cf3c7b3abe9208d064621eb80a3ecaf2f4add.map",
+      "size": 30962,
+      "hash": "74f3303415eeaa63fed122e5d8fb4fddde5e018a"
+    },
+    {
+      "path": "packages/id-map.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/id-map.js?9ea6eaae8d74693ce2505a858d9a5e60cf191298",
+      "sourceMap": "packages/id-map.js.map",
+      "sourceMapUrl": "/packages/9ea6eaae8d74693ce2505a858d9a5e60cf191298.map",
+      "size": 8651,
+      "hash": "7e267dd367fce7900e3d67da561edba51a8d4892"
+    },
+    {
+      "path": "packages/ordered-dict.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/ordered-dict.js?bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37",
+      "sourceMap": "packages/ordered-dict.js.map",
+      "sourceMapUrl": "/packages/bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37.map",
+      "size": 20462,
+      "hash": "04293cc374826c63c8f2eb11c7ac8134f661cf0b"
+    },
+    {
+      "path": "packages/geojson-utils.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/geojson-utils.js?81b79d5cf96d00b4b7a28987debcffb665c17526",
+      "sourceMap": "packages/geojson-utils.js.map",
+      "sourceMapUrl": "/packages/81b79d5cf96d00b4b7a28987debcffb665c17526.map",
+      "size": 48406,
+      "hash": "732d630d298f84b0b725df217a34d9b87fc984eb"
+    },
+    {
+      "path": "packages/minimongo.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/minimongo.js?4ee0ab879b747ffce53b84d2eb80d456d2dcca6d",
+      "sourceMap": "packages/minimongo.js.map",
+      "sourceMapUrl": "/packages/4ee0ab879b747ffce53b84d2eb80d456d2dcca6d.map",
+      "size": 424613,
+      "hash": "9b7dd91afd5d7807e8a3d754baf93d7d6aec71f3"
+    },
+    {
+      "path": "packages/livedata.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/livedata.js?502d55e7a7449f770e46330161cb7bd525c4417a",
+      "sourceMap": "packages/livedata.js.map",
+      "sourceMapUrl": "/packages/502d55e7a7449f770e46330161cb7bd525c4417a.map",
+      "size": 600902,
+      "hash": "d5bc1624d333a23b9bffc8ead6921e1efc064333"
+    },
+    {
+      "path": "packages/follower-livedata.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/follower-livedata.js?39b05f02878030ae806a16a173661b7df1e92eb6",
+      "sourceMap": "packages/follower-livedata.js.map",
+      "sourceMapUrl": "/packages/39b05f02878030ae806a16a173661b7df1e92eb6.map",
+      "size": 1562,
+      "hash": "86f15f1dfb79baeec5c8f16c55275b050a489ad1"
+    },
+    {
+      "path": "packages/application-configuration.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/application-configuration.js?fa92020e10c808f1287070d009f69a4054676e5a",
+      "sourceMap": "packages/application-configuration.js.map",
+      "sourceMapUrl": "/packages/fa92020e10c808f1287070d009f69a4054676e5a.map",
+      "size": 1557,
+      "hash": "f07593c89c711c06846048b168f5f96b86438f6d"
+    },
+    {
+      "path": "packages/insecure.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/insecure.js?3dc9d4a2dad55999b5b15a447d57f3d5fb66b290",
+      "sourceMap": "packages/insecure.js.map",
+      "sourceMapUrl": "/packages/3dc9d4a2dad55999b5b15a447d57f3d5fb66b290.map",
+      "size": 1357,
+      "hash": "b08ff2a4cb09a65ed72e539c331f1fedf34ba24d"
+    },
+    {
+      "path": "packages/mongo-livedata.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/mongo-livedata.js?26f4a1853dbf09c49d7cc49710b6fa14f83b138b",
+      "sourceMap": "packages/mongo-livedata.js.map",
+      "sourceMapUrl": "/packages/26f4a1853dbf09c49d7cc49710b6fa14f83b138b.map",
+      "size": 110074,
+      "hash": "f11108ea25807582e2d94a42af4fb0471d0f51be"
+    },
+    {
+      "path": "packages/autoupdate.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/autoupdate.js?85a69577c7e94226061fb2c886f23080a9163712",
+      "sourceMap": "packages/autoupdate.js.map",
+      "sourceMapUrl": "/packages/85a69577c7e94226061fb2c886f23080a9163712.map",
+      "size": 10153,
+      "hash": "723ab51f06c129b5224a075641dec1ed4c998bea"
+    },
+    {
+      "path": "packages/standard-app-packages.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/standard-app-packages.js?601dc02c741b437bbe8be03773a37f7d896a88e7",
+      "sourceMap": "packages/standard-app-packages.js.map",
+      "sourceMapUrl": "/packages/601dc02c741b437bbe8be03773a37f7d896a88e7.map",
+      "size": 1457,
+      "hash": "d1212ff69eb4558f928ef3dcd90c81ffd3fdfc78"
+    },
+    {
+      "path": "packages/reactive-dict.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/reactive-dict.js?22667928acc72f619ce81e7ac1e35def1ba9e0ae",
+      "sourceMap": "packages/reactive-dict.js.map",
+      "sourceMapUrl": "/packages/22667928acc72f619ce81e7ac1e35def1ba9e0ae.map",
+      "size": 13878,
+      "hash": "1f75a22be6345194702958fe901a366c93821b7e"
+    },
+    {
+      "path": "packages/jquery.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/jquery.js?265926494aaa3929cd2e30da265211c5929f37a4",
+      "sourceMap": "packages/jquery.js.map",
+      "sourceMapUrl": "/packages/265926494aaa3929cd2e30da265211c5929f37a4.map",
+      "size": 1295474,
+      "hash": "3d88d8e02ae76ad0265d1a57f5d84b882613a7b1"
+    },
+    {
+      "path": "packages/observe-sequence.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/observe-sequence.js?2d685c5e1f0a3395de32e4cd78255cc082f7d1b5",
+      "sourceMap": "packages/observe-sequence.js.map",
+      "sourceMapUrl": "/packages/2d685c5e1f0a3395de32e4cd78255cc082f7d1b5.map",
+      "size": 31409,
+      "hash": "404249eec61195f3db4d16a2cc2e715e859d863f"
+    },
+    {
+      "path": "packages/htmljs.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/htmljs.js?a0a9082010d25b3fb44e0f56bdd0a7b4e6bbeb93",
+      "sourceMap": "packages/htmljs.js.map",
+      "sourceMapUrl": "/packages/a0a9082010d25b3fb44e0f56bdd0a7b4e6bbeb93.map",
+      "size": 59671,
+      "hash": "70ed8cb3ff4edcb8feb0ce264f813ba97b9de37d"
+    },
+    {
+      "path": "packages/ui.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/ui.js?f0696b7e9407b8f11e5838e7e7820e9b6d7fc92f",
+      "sourceMap": "packages/ui.js.map",
+      "sourceMapUrl": "/packages/f0696b7e9407b8f11e5838e7e7820e9b6d7fc92f.map",
+      "size": 314715,
+      "hash": "c772f15fd72614763c4c1a6d7f684f93af3bf369"
+    },
+    {
+      "path": "packages/iron-router.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/iron-router.js?e9fac8016598ea034d4f30de5f0d356a9a24b6c5",
+      "sourceMap": "packages/iron-router.js.map",
+      "sourceMapUrl": "/packages/e9fac8016598ea034d4f30de5f0d356a9a24b6c5.map",
+      "size": 233119,
+      "hash": "032cc0882a8bd263a363f0cf354fe8d0da193338"
+    },
+    {
+      "path": "packages/bootstrap-3.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/bootstrap-3.js?6b84771ec4a63c18d57fd7ca6357e8d99623e569",
+      "sourceMap": "packages/bootstrap-3.js.map",
+      "sourceMapUrl": "/packages/6b84771ec4a63c18d57fd7ca6357e8d99623e569.map",
+      "size": 247156,
+      "hash": "e2c37d9fbb80ed222d13b64a4d58f32952ae8684"
+    },
+    {
+      "path": "packages/templating.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/templating.js?b36d51fd34724d5d501d8557cd9f846874d95aef",
+      "sourceMap": "packages/templating.js.map",
+      "sourceMapUrl": "/packages/b36d51fd34724d5d501d8557cd9f846874d95aef.map",
+      "size": 4252,
+      "hash": "dae2973329cd2ff5e094e7123f718974f635d1bc"
+    },
+    {
+      "path": "packages/googleAnalytics.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/googleAnalytics.js?8ba02dc2c26456dcca848bd9454fd917ecf11cca",
+      "sourceMap": "packages/googleAnalytics.js.map",
+      "sourceMapUrl": "/packages/8ba02dc2c26456dcca848bd9454fd917ecf11cca.map",
+      "size": 31284,
+      "hash": "ccc2aef0a177c33c17b6a9fedd71d3a9f2ab138d"
+    },
+    {
+      "path": "packages/localstorage.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/localstorage.js?5e0935b5400fc4b2fe50a44086afc939e63063dc",
+      "sourceMap": "packages/localstorage.js.map",
+      "sourceMapUrl": "/packages/5e0935b5400fc4b2fe50a44086afc939e63063dc.map",
+      "size": 6754,
+      "hash": "e40b49d57fdc9ba8eee3ced284fc194b36f60dd4"
+    },
+    {
+      "path": "packages/accounts-base.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/accounts-base.js?7b90b1939a52b5c6ad91265df4dd167bd5f4ebdb",
+      "sourceMap": "packages/accounts-base.js.map",
+      "sourceMapUrl": "/packages/7b90b1939a52b5c6ad91265df4dd167bd5f4ebdb.map",
+      "size": 66372,
+      "hash": "92e2ae04b096a290f5e9d5b86bbe0cbe7f49bf1c"
+    },
+    {
+      "path": "packages/oauth.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/oauth.js?49ed9ff1848263ddd4df8bc11c7f8f107222f2f6",
+      "sourceMap": "packages/oauth.js.map",
+      "sourceMapUrl": "/packages/49ed9ff1848263ddd4df8bc11c7f8f107222f2f6.map",
+      "size": 11746,
+      "hash": "5fdfc1376bb85a4f6447272f3586737eec96bfcf"
+    },
+    {
+      "path": "packages/accounts-oauth.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/accounts-oauth.js?913349800214885078523e274e4b00fa105ad388",
+      "sourceMap": "packages/accounts-oauth.js.map",
+      "sourceMapUrl": "/packages/913349800214885078523e274e4b00fa105ad388.map",
+      "size": 7943,
+      "hash": "b25c42acca050e390b5925d90c39401cbbee9788"
+    },
+    {
+      "path": "packages/service-configuration.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/service-configuration.js?c3ce094ff5f2ea7bb9376e0affb96ca42b6f50c1",
+      "sourceMap": "packages/service-configuration.js.map",
+      "sourceMapUrl": "/packages/c3ce094ff5f2ea7bb9376e0affb96ca42b6f50c1.map",
+      "size": 5116,
+      "hash": "dcfbbb6dca80fbae073711d88ee6a0ae870e2778"
+    },
+    {
+      "path": "packages/oauth2.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/oauth2.js?5fa58098b89a1467037a0b8eb4b17ad33b72cf07",
+      "sourceMap": "packages/oauth2.js.map",
+      "sourceMapUrl": "/packages/5fa58098b89a1467037a0b8eb4b17ad33b72cf07.map",
+      "size": 1503,
+      "hash": "c3f24cc9266091a2593c75054764551f2a783c62"
+    },
+    {
+      "path": "packages/google.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/google.js?5a66d6cf7010e9e9c8caef3a445366edf3f83a07",
+      "sourceMap": "packages/google.js.map",
+      "sourceMapUrl": "/packages/5a66d6cf7010e9e9c8caef3a445366edf3f83a07.map",
+      "size": 15491,
+      "hash": "fcf4882aa2317dba59c8d5e8acbaf011dbbcd911"
+    },
+    {
+      "path": "packages/accounts-google.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/accounts-google.js?9ef9953d728cd324cfd7280e7b31c1b89ce5eed5",
+      "sourceMap": "packages/accounts-google.js.map",
+      "sourceMapUrl": "/packages/9ef9953d728cd324cfd7280e7b31c1b89ce5eed5.map",
+      "size": 5663,
+      "hash": "ead38991217f463908264bb723dca2e6eb81e216"
+    },
+    {
+      "path": "packages/facebook.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/facebook.js?93ccbb2e313ffa5ef3134ba2dff662f700df3ec5",
+      "sourceMap": "packages/facebook.js.map",
+      "sourceMapUrl": "/packages/93ccbb2e313ffa5ef3134ba2dff662f700df3ec5.map",
+      "size": 11221,
+      "hash": "a845ec77daaf8a5d30e85036610e0f926e24c6c0"
+    },
+    {
+      "path": "packages/accounts-facebook.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/accounts-facebook.js?9e890f917b8ec3c3ea39544407a7e982dbc6d5ae",
+      "sourceMap": "packages/accounts-facebook.js.map",
+      "sourceMapUrl": "/packages/9e890f917b8ec3c3ea39544407a7e982dbc6d5ae.map",
+      "size": 5169,
+      "hash": "f7089ca925fa851d324c2b9a3eff4eda66050536"
+    },
+    {
+      "path": "packages/facebook-sdk.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/facebook-sdk.js?0aaf07efc544d44c032b6caf0daa815fcc3ed23a",
+      "sourceMap": "packages/facebook-sdk.js.map",
+      "sourceMapUrl": "/packages/0aaf07efc544d44c032b6caf0daa815fcc3ed23a.map",
+      "size": 1431,
+      "hash": "300a7005de43aa0cbe428ffc4b8cb8a3df99040f"
+    },
+    {
+      "path": "packages/twitter-streaming.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/twitter-streaming.js?2ef8751ca251236610e82b2e6268e597f82a56fc",
+      "sourceMap": "packages/twitter-streaming.js.map",
+      "sourceMapUrl": "/packages/2ef8751ca251236610e82b2e6268e597f82a56fc.map",
+      "size": 1433,
+      "hash": "88ac71ea0160d0dfd95564d072f4d66e2df8d3da"
+    },
+    {
+      "path": "packages/dimple.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/dimple.js?cb6312ffeaedb72225ca3407dd35b7805444e80c",
+      "sourceMap": "packages/dimple.js.map",
+      "sourceMapUrl": "/packages/cb6312ffeaedb72225ca3407dd35b7805444e80c.map",
+      "size": 568596,
+      "hash": "1c1c37e95925b5d708e1f444b0bb5d1dd171a7b4"
+    },
+    {
+      "path": "packages/d3.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/d3.js?9961945f4971ab1b110ad9b3f9bd0f23cdc15944",
+      "sourceMap": "packages/d3.js.map",
+      "sourceMapUrl": "/packages/9961945f4971ab1b110ad9b3f9bd0f23cdc15944.map",
+      "size": 1082594,
+      "hash": "9a52dfb119945fb74a1320af69fb6b68da887a22"
+    },
+    {
+      "path": "packages/chance.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/chance.js?1f5c08301553da3a7bb22d8b8b8d06a71610b23d",
+      "sourceMap": "packages/chance.js.map",
+      "sourceMapUrl": "/packages/1f5c08301553da3a7bb22d8b8b8d06a71610b23d.map",
+      "size": 1355,
+      "hash": "61cd93235668f13f83392d19b9c4c76a9545819d"
+    },
+    {
+      "path": "packages/numeral.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/numeral.js?595938a2652efa46f6ba9ee8a396aa4e5929f16b",
+      "sourceMap": "packages/numeral.js.map",
+      "sourceMapUrl": "/packages/595938a2652efa46f6ba9ee8a396aa4e5929f16b.map",
+      "size": 86997,
+      "hash": "e971c6dcbdcaf08ad6e9b20f61a760ebb6d66d1f"
+    },
+    {
+      "path": "packages/simple-schema.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/simple-schema.js?19afe70e5c00d8565c4ef47f1edc175d585afd5d",
+      "sourceMap": "packages/simple-schema.js.map",
+      "sourceMapUrl": "/packages/19afe70e5c00d8565c4ef47f1edc175d585afd5d.map",
+      "size": 422225,
+      "hash": "e60c664f28ce90033e8ccaf3f83d8961686ca7c2"
+    },
+    {
+      "path": "packages/handlebars.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/handlebars.js?038145b6256cd6a69c11650ed6bf12b093920095",
+      "sourceMap": "packages/handlebars.js.map",
+      "sourceMapUrl": "/packages/038145b6256cd6a69c11650ed6bf12b093920095.map",
+      "size": 1359,
+      "hash": "9d865e1a5c26b3aee1ace6557d6183825126478d"
+    },
+    {
+      "path": "packages/moment.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/moment.js?b4bcca636b39d70cd42308e886f56486a1f78756",
+      "sourceMap": "packages/moment.js.map",
+      "sourceMapUrl": "/packages/b4bcca636b39d70cd42308e886f56486a1f78756.map",
+      "size": 319188,
+      "hash": "82f6b25d46d4c8e9f8833d79ae625596c78fef24"
+    },
+    {
+      "path": "packages/autoform.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/autoform.js?82f0d63b1a0f82bae54f2dfd79f10ceb31d378c3",
+      "sourceMap": "packages/autoform.js.map",
+      "sourceMapUrl": "/packages/82f0d63b1a0f82bae54f2dfd79f10ceb31d378c3.map",
+      "size": 585079,
+      "hash": "498baa676b9bc2db007efc5e3bf1fc3b5970a371"
+    },
+    {
+      "path": "packages/less.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/less.js?7d1bf981a25a449d6270558bcfc983313c40cd26",
+      "sourceMap": "packages/less.js.map",
+      "sourceMapUrl": "/packages/7d1bf981a25a449d6270558bcfc983313c40cd26.map",
+      "size": 1353,
+      "hash": "fdc0e1664ae563e65fd9023cf8a3384406cef79d"
+    },
+    {
+      "path": "packages/notifications.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/notifications.js?1a93c50e028ffe3e9eaa3443bfe032bf42089f80",
+      "sourceMap": "packages/notifications.js.map",
+      "sourceMapUrl": "/packages/1a93c50e028ffe3e9eaa3443bfe032bf42089f80.map",
+      "size": 42079,
+      "hash": "705b1dbcffc3cfe625e486593bfff330d90be36a"
+    },
+    {
+      "path": "packages/npm.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/npm.js?b1834cf021c400f1881a12cf5b620c6950acdd78",
+      "sourceMap": "packages/npm.js.map",
+      "sourceMapUrl": "/packages/b1834cf021c400f1881a12cf5b620c6950acdd78.map",
+      "size": 1410,
+      "hash": "113748686928f544564770ad5cd40a393ea43203"
+    },
+    {
+      "path": "packages/session.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/session.js?5bcd2d86431dc10d5f4be0910cb6567342e1aaf6",
+      "sourceMap": "packages/session.js.map",
+      "sourceMapUrl": "/packages/5bcd2d86431dc10d5f4be0910cb6567342e1aaf6.map",
+      "size": 3314,
+      "hash": "b64e7cd4899d58d3ab10b1e5ba3a6c276d3696b7"
+    },
+    {
+      "path": "packages/stylus.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/stylus.js?48b7e3e0953c004a73211d7489462e73ed11be2c",
+      "sourceMap": "packages/stylus.js.map",
+      "sourceMapUrl": "/packages/48b7e3e0953c004a73211d7489462e73ed11be2c.map",
+      "size": 1355,
+      "hash": "aad608577b1dc0d2bbb9cf7919a3672420cb3309"
+    },
+    {
+      "path": "packages/accounts-ui-bootstrap-3.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/accounts-ui-bootstrap-3.js?21b2fec0bad5c23734094f20fe2979c4b10cfde9",
+      "sourceMap": "packages/accounts-ui-bootstrap-3.js.map",
+      "sourceMapUrl": "/packages/21b2fec0bad5c23734094f20fe2979c4b10cfde9.map",
+      "size": 243398,
+      "hash": "72d4362a8e4a9e708e961ec99100bdfce1c91640"
+    },
+    {
+      "path": "packages/webapp.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/webapp.js?e1be090051b82f046484dccc2de7d747e50c7328",
+      "sourceMap": "packages/webapp.js.map",
+      "sourceMapUrl": "/packages/e1be090051b82f046484dccc2de7d747e50c7328.map",
+      "size": 3173,
+      "hash": "67f90408f968dde9a39713ebfe55c209c99cbc02"
+    },
+    {
+      "path": "packages/spacebars.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/spacebars.js?f49560fc90a8d71b7637d9596696078881b8c812",
+      "sourceMap": "packages/spacebars.js.map",
+      "sourceMapUrl": "/packages/f49560fc90a8d71b7637d9596696078881b8c812.map",
+      "size": 30285,
+      "hash": "ef3b5255d03a0fba96486815e08cf26918ea5b70"
+    },
+    {
+      "path": "packages/global-imports.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/global-imports.js?ae2604f19d14867bb86489e8ffcc5ec64bfbd518",
+      "size": 1235,
+      "hash": "ae2604f19d14867bb86489e8ffcc5ec64bfbd518"
+    },
+    {
+      "path": "app/client/views/dashboard/first_row_chart/chart_left_up/template.chart_left_up.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/dashboard/first_row_chart/chart_left_up/template.chart_left_up.js?e0a6518a966ed9b624e047b6328a54493fcf88b6",
+      "size": 176,
+      "hash": "e0a6518a966ed9b624e047b6328a54493fcf88b6"
+    },
+    {
+      "path": "app/client/views/dashboard/first_row_chart/chart_right_up/template.chart_right_up.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/dashboard/first_row_chart/chart_right_up/template.chart_right_up.js?f790704e5d144d69663a8a226f1458ff1cf7b24e",
+      "size": 182,
+      "hash": "f790704e5d144d69663a8a226f1458ff1cf7b24e"
+    },
+    {
+      "path": "app/client/views/dashboard/second_row_chart/second_row_chart_left/template.second_row_chart_left.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/dashboard/second_row_chart/second_row_chart_left/template.second_row_chart_left.js?129b5e69aab133f55597c37d9f9c4687c932b3a6",
+      "size": 190,
+      "hash": "129b5e69aab133f55597c37d9f9c4687c932b3a6"
+    },
+    {
+      "path": "app/client/views/dashboard/second_row_chart/second_row_chart_right/template.second_row_chart_right.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/dashboard/second_row_chart/second_row_chart_right/template.second_row_chart_right.js?386fd6d2ae9e1f6292e0cdea40d9225529f4af9e",
+      "size": 200,
+      "hash": "386fd6d2ae9e1f6292e0cdea40d9225529f4af9e"
+    },
+    {
+      "path": "app/client/views/includes/footer/template.footer.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/includes/footer/template.footer.js?5ffbc0d6a25c190ad76a5ec0e699617777976525",
+      "size": 513,
+      "hash": "5ffbc0d6a25c190ad76a5ec0e699617777976525"
+    },
+    {
+      "path": "app/client/views/includes/header/template.header.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/includes/header/template.header.js?47727d12bb4bfbf4f3e9441403cd70a5b35564bb",
+      "size": 1172,
+      "hash": "47727d12bb4bfbf4f3e9441403cd70a5b35564bb"
+    },
+    {
+      "path": "app/client/views/layouts/master_layout/template.master_layout.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/layouts/master_layout/template.master_layout.js?85ae2faf038c9a76108f131c89881cffb5ffd6dd",
+      "size": 175,
+      "hash": "85ae2faf038c9a76108f131c89881cffb5ffd6dd"
+    },
+    {
+      "path": "app/client/views/shared/loading/template.loading.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/shared/loading/template.loading.js?b3d95d66ca6cc1f2c9fb543191c27937175cffac",
+      "size": 165,
+      "hash": "b3d95d66ca6cc1f2c9fb543191c27937175cffac"
+    },
+    {
+      "path": "app/client/views/shared/not_found/template.not_found.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/shared/not_found/template.not_found.js?a12ca2de7eee8e706c113d9e40dc20a22498185e",
+      "size": 134,
+      "hash": "a12ca2de7eee8e706c113d9e40dc20a22498185e"
+    },
+    {
+      "path": "app/client/views/about/template.about.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/about/template.about.js?a65d7da551973d956aca887bf42750ec41eeeab8",
+      "size": 152,
+      "hash": "a65d7da551973d956aca887bf42750ec41eeeab8"
+    },
+    {
+      "path": "app/client/views/dashboard/template.dashboard.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/dashboard/template.dashboard.js?d7c19eeabf12d72233c77d8ea3a5839df37d216a",
+      "size": 1305,
+      "hash": "d7c19eeabf12d72233c77d8ea3a5839df37d216a"
+    },
+    {
+      "path": "app/client/views/google_analytic/template.google_analytic.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/google_analytic/template.google_analytic.js?8467ee33d0829d5dd8426e587ed9b4adb7119a11",
+      "size": 243,
+      "hash": "8467ee33d0829d5dd8426e587ed9b4adb7119a11"
+    },
+    {
+      "path": "app/client/views/homepage/template.homepage.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/homepage/template.homepage.js?a751a18b1d08a78c5269b29590b33fc40d0b6690",
+      "size": 1537,
+      "hash": "a751a18b1d08a78c5269b29590b33fc40d0b6690"
+    },
+    {
+      "path": "app/client/views/landing_page/template.landing_page.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/landing_page/template.landing_page.js?6cd2e30cfea49dcaed4449ca4347f2d8ca486d76",
+      "size": 670,
+      "hash": "6cd2e30cfea49dcaed4449ca4347f2d8ca486d76"
+    },
+    {
+      "path": "app/client/views/login/template.login.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/login/template.login.js?89bb62f0d71acbd176bcbce1b3bd671bfdc826d3",
+      "size": 569,
+      "hash": "89bb62f0d71acbd176bcbce1b3bd671bfdc826d3"
+    },
+    {
+      "path": "app/client/views/pricing/template.pricing.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/pricing/template.pricing.js?34ac52ccd89bd724085fa08bc8f4d9950ec614cd",
+      "size": 3963,
+      "hash": "34ac52ccd89bd724085fa08bc8f4d9950ec614cd"
+    },
+    {
+      "path": "app/client/views/privacy/template.privacy.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/privacy/template.privacy.js?c9907e0ab40ad8704ebc68b0f3a27a6852d101ef",
+      "size": 158,
+      "hash": "c9907e0ab40ad8704ebc68b0f3a27a6852d101ef"
+    },
+    {
+      "path": "app/client/views/product/template.product.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/product/template.product.js?d4edf19afb97c324a595a42e909255da39ad4d71",
+      "size": 158,
+      "hash": "d4edf19afb97c324a595a42e909255da39ad4d71"
+    },
+    {
+      "path": "app/client/template.app.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/template.app.js?ad14875ad5e219b5d1f852c083ad081e52692085",
+      "size": 281,
+      "hash": "ad14875ad5e219b5d1f852c083ad081e52692085"
+    },
+    {
+      "path": "app/lib/app.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/lib/app.js?9aa81c4b28df27e64af42df65080b5359c947de0",
+      "size": 297,
+      "hash": "9aa81c4b28df27e64af42df65080b5359c947de0"
+    },
+    {
+      "path": "app/client/views/dashboard/first_row_chart/chart_left_up/chart_left_up.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/dashboard/first_row_chart/chart_left_up/chart_left_up.js?14355b3e32ad5a86b83d371a7a703a8d504a88a5",
+      "size": 1221,
+      "hash": "14355b3e32ad5a86b83d371a7a703a8d504a88a5"
+    },
+    {
+      "path": "app/client/views/dashboard/first_row_chart/chart_right_up/DATA_chart_right_up.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/dashboard/first_row_chart/chart_right_up/DATA_chart_right_up.js?a6275a3a75e956c3b43a4bc86436aaa5aa48d93b",
+      "size": 7859,
+      "hash": "a6275a3a75e956c3b43a4bc86436aaa5aa48d93b"
+    },
+    {
+      "path": "app/client/views/dashboard/first_row_chart/chart_right_up/chart_right_up.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/dashboard/first_row_chart/chart_right_up/chart_right_up.js?f53a98c93e8e628eeed088c676b75947337dba0d",
+      "size": 2817,
+      "hash": "f53a98c93e8e628eeed088c676b75947337dba0d"
+    },
+    {
+      "path": "app/client/views/dashboard/second_row_chart/second_row_chart_left/second_row_chart_left.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/dashboard/second_row_chart/second_row_chart_left/second_row_chart_left.js?93c3e865694e9f42a68cde89db9fc09a9541285a",
+      "size": 2569,
+      "hash": "93c3e865694e9f42a68cde89db9fc09a9541285a"
+    },
+    {
+      "path": "app/client/views/dashboard/second_row_chart/second_row_chart_right/second_row_chart_right.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/dashboard/second_row_chart/second_row_chart_right/second_row_chart_right.js?8705d33bc94bd0415d05b7754d5557670cf95c00",
+      "size": 903,
+      "hash": "8705d33bc94bd0415d05b7754d5557670cf95c00"
+    },
+    {
+      "path": "app/client/views/includes/footer/footer.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/includes/footer/footer.js?772b97937c3d11dece3d5fc2f3f78b31edf4e8b5",
+      "size": 812,
+      "hash": "772b97937c3d11dece3d5fc2f3f78b31edf4e8b5"
+    },
+    {
+      "path": "app/client/views/includes/header/header.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/includes/header/header.js?6902e97d9c9c2a755702de4291572251c5b928f7",
+      "size": 812,
+      "hash": "6902e97d9c9c2a755702de4291572251c5b928f7"
+    },
+    {
+      "path": "app/client/views/layouts/master_layout/master_layout.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/layouts/master_layout/master_layout.js?74af8d552a035aa04e8a2a561a5ced52b803066c",
+      "size": 854,
+      "hash": "74af8d552a035aa04e8a2a561a5ced52b803066c"
+    },
+    {
+      "path": "app/client/views/shared/loading/loading.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/shared/loading/loading.js?67a1c09a5c26757f0975da17eb094c51afca9384",
+      "size": 819,
+      "hash": "67a1c09a5c26757f0975da17eb094c51afca9384"
+    },
+    {
+      "path": "app/client/views/shared/not_found/not_found.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/shared/not_found/not_found.js?d6e2ea013bb3cdfda4742395c2bc5d674fc14f29",
+      "size": 826,
+      "hash": "d6e2ea013bb3cdfda4742395c2bc5d674fc14f29"
+    },
+    {
+      "path": "app/client/views/about/about.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/about/about.js?bb3ba15868e2f48c33e7e02dca0577a68c3d0493",
+      "size": 805,
+      "hash": "bb3ba15868e2f48c33e7e02dca0577a68c3d0493"
+    },
+    {
+      "path": "app/client/views/dashboard/dashboard.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/dashboard/dashboard.js?114cb7a2ebe2b3d247d4f8a6b6068184cac7766c",
+      "size": 2415,
+      "hash": "114cb7a2ebe2b3d247d4f8a6b6068184cac7766c"
+    },
+    {
+      "path": "app/client/views/google_analytic/google_analytic.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/google_analytic/google_analytic.js?e29e7e0ef8c17aa2514da67261f877fa4c1d120e",
+      "size": 1002,
+      "hash": "e29e7e0ef8c17aa2514da67261f877fa4c1d120e"
+    },
+    {
+      "path": "app/client/views/homepage/homepage.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/homepage/homepage.js?67916f0a2035f7e98854bde3a3e0e21c80f889d4",
+      "size": 1211,
+      "hash": "67916f0a2035f7e98854bde3a3e0e21c80f889d4"
+    },
+    {
+      "path": "app/client/views/landing_page/landing_page.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/landing_page/landing_page.js?f06b66cc4db72902db0daa4653327cd40aef108d",
+      "size": 847,
+      "hash": "f06b66cc4db72902db0daa4653327cd40aef108d"
+    },
+    {
+      "path": "app/client/views/login/login.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/login/login.js?1b85f0a998e17ec3817f29bfad8abbe1e8e112e5",
+      "size": 1609,
+      "hash": "1b85f0a998e17ec3817f29bfad8abbe1e8e112e5"
+    },
+    {
+      "path": "app/client/views/pricing/pricing.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/pricing/pricing.js?c1c5474338bd809c8f66a5236ff09b7893e78110",
+      "size": 819,
+      "hash": "c1c5474338bd809c8f66a5236ff09b7893e78110"
+    },
+    {
+      "path": "app/client/views/privacy/privacy.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/privacy/privacy.js?c26bfc69e6be524bf2e459840e626b0ce83ac5c1",
+      "size": 819,
+      "hash": "c26bfc69e6be524bf2e459840e626b0ce83ac5c1"
+    },
+    {
+      "path": "app/client/views/product/product.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/product/product.js?8fd50571b2c8f90564d90d69f7ed91e6f917c288",
+      "size": 819,
+      "hash": "8fd50571b2c8f90564d90d69f7ed91e6f917c288"
+    },
+    {
+      "path": "app/both/collections/signins.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/both/collections/signins.js?6eff825568d6a395f37a6ec70c4cd567a4cace24",
+      "size": 283,
+      "hash": "6eff825568d6a395f37a6ec70c4cd567a4cace24"
+    },
+    {
+      "path": "app/both/collections/twitterFeed.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/both/collections/twitterFeed.js?9232bc0a043dbc26c969871ef9d65d990492c9fb",
+      "size": 122,
+      "hash": "9232bc0a043dbc26c969871ef9d65d990492c9fb"
+    },
+    {
+      "path": "app/both/math/correlation.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/both/math/correlation.js?41266490c5cb023e27a15c59437ba4cfc749a3dc",
+      "size": 2477,
+      "hash": "41266490c5cb023e27a15c59437ba4cfc749a3dc"
+    },
+    {
+      "path": "app/both/router/routes.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/both/router/routes.js?be5b50201b1c310ea4496d847eeb9b22a9544446",
+      "size": 895,
+      "hash": "be5b50201b1c310ea4496d847eeb9b22a9544446"
+    },
+    {
+      "path": "app/client/collections/signins.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/collections/signins.js?66f91f4dc3bf83b486527385d1c936ee398c26f9",
+      "size": 155,
+      "hash": "66f91f4dc3bf83b486527385d1c936ee398c26f9"
+    },
+    {
+      "path": "app/client/controllers/about.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/controllers/about.js?3f4bd07ad3da4e5f0b9e7d6bf4975c5ab9e50d02",
+      "size": 182,
+      "hash": "3f4bd07ad3da4e5f0b9e7d6bf4975c5ab9e50d02"
+    },
+    {
+      "path": "app/client/controllers/dashboard.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/controllers/dashboard.js?8b77816cf4925de471340b8db7750a43f553343b",
+      "size": 186,
+      "hash": "8b77816cf4925de471340b8db7750a43f553343b"
+    },
+    {
+      "path": "app/client/controllers/google_analytic.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/controllers/google_analytic.js?8134474854b36c20e27e89db0e36f5b571e2df07",
+      "size": 196,
+      "hash": "8134474854b36c20e27e89db0e36f5b571e2df07"
+    },
+    {
+      "path": "app/client/controllers/homepage.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/controllers/homepage.js?2d126642160b379810ab9a0c10680b907cb557bc",
+      "size": 251,
+      "hash": "2d126642160b379810ab9a0c10680b907cb557bc"
+    },
+    {
+      "path": "app/client/controllers/landing_page.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/controllers/landing_page.js?f65e6604ca9e81d7f05ea6e7ecf0cd1291720ef0",
+      "size": 188,
+      "hash": "f65e6604ca9e81d7f05ea6e7ecf0cd1291720ef0"
+    },
+    {
+      "path": "app/client/controllers/login.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/controllers/login.js?d07103912d18afaf81fc6637785a27bfcbf5120c",
+      "size": 182,
+      "hash": "d07103912d18afaf81fc6637785a27bfcbf5120c"
+    },
+    {
+      "path": "app/client/controllers/pricing.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/controllers/pricing.js?de4816f5b8ed5229d4d5a9af830a3280fc04dfd7",
+      "size": 184,
+      "hash": "de4816f5b8ed5229d4d5a9af830a3280fc04dfd7"
+    },
+    {
+      "path": "app/client/controllers/privacy.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/controllers/privacy.js?1d200dd14df2f9d1618309a60bd76d615a4894f7",
+      "size": 184,
+      "hash": "1d200dd14df2f9d1618309a60bd76d615a4894f7"
+    },
+    {
+      "path": "app/client/controllers/product.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/controllers/product.js?6325a39df213006edbc1c47f888f69786126a849",
+      "size": 184,
+      "hash": "6325a39df213006edbc1c47f888f69786126a849"
+    },
+    {
+      "path": "app/client/app.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/app.js?2e96c6c9185e882364b9784f39346ffb82d0ae6c",
+      "size": 705,
+      "hash": "2e96c6c9185e882364b9784f39346ffb82d0ae6c"
+    },
+    {
+      "path": "app/client/subscriptions.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/subscriptions.js?5f5d8027e1ba35ec9ca978d0b790740b7bacbc9c",
+      "size": 158,
+      "hash": "5f5d8027e1ba35ec9ca978d0b790740b7bacbc9c"
+    },
+    {
+      "path": "packages/blaze-layout.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/blaze-layout.js?58621fa8e3ed65d10240815d5ba3fb34e2e9fdc5",
+      "sourceMap": "packages/blaze-layout.js.map",
+      "sourceMapUrl": "/packages/58621fa8e3ed65d10240815d5ba3fb34e2e9fdc5.map",
+      "size": 64533,
+      "hash": "58af5a22f1330c167b2c38e7daacf537e1c5217d"
+    },
+    {
+      "path": "58bcefe20da5ebe8bee764cd726ca652763d663c.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/58bcefe20da5ebe8bee764cd726ca652763d663c.css",
+      "sourceMap": "58bcefe20da5ebe8bee764cd726ca652763d663c.css.map",
+      "sourceMapUrl": "/58bcefe20da5ebe8bee764cd726ca652763d663c.map",
+      "size": 200608,
+      "hash": "33b23a868dda0208d0f68b7665cdd09e87a8970a"
+    },
+    {
+      "path": "packages/bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.eot",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.eot",
+      "size": 20335,
+      "hash": "f3a9a3b609133c3d21d6b42abbf7f43bd111df72"
+    },
+    {
+      "path": "packages/bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.ttf",
+      "size": 41280,
+      "hash": "aafafdc09404c4aa4447d7e898a2183def9cc1b1"
+    },
+    {
+      "path": "packages/bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.svg",
+      "size": 62927,
+      "hash": "3ef91859cbec165ac97df6957b176f69e8d6a04d"
+    },
+    {
+      "path": "packages/bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.woff",
+      "size": 23320,
+      "hash": "22037a3455914e5662fa51a596677bdb329e2c5c"
+    },
+    {
+      "path": "app/example_data.tsv",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/example_data.tsv",
+      "size": 37,
+      "hash": "ab0ec41d751cf024d9b4238695eda5355863639b"
+    },
+    {
+      "path": "app/fb.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fb.png",
+      "size": 1451,
+      "hash": "9f01ac6e0aa4afb942888942222e078c4925c3e0"
+    },
+    {
+      "path": "app/fb_hover.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fb_hover.png",
+      "size": 1621,
+      "hash": "14a4da48cf0d5c0b7f937a09ce650f0b8c5502d5"
+    },
+    {
+      "path": "app/g+.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/g+.png",
+      "size": 1662,
+      "hash": "249f0cd7250428b862b610ccb9dbe36128b76dd1"
+    },
+    {
+      "path": "app/g+_hover.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/g+_hover.png",
+      "size": 1934,
+      "hash": "559c50529df17289e3233715233b1bd7e7a0d484"
+    },
+    {
+      "path": "app/logoshowcharts.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/logoshowcharts.png",
+      "size": 48894,
+      "hash": "255388806b44af0a1ba21dc769d42c27025a75da"
+    },
+    {
+      "path": "app/phone_1.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/phone_1.png",
+      "size": 91555,
+      "hash": "8fd6b9e37ef249e0f2e465fcd42ef4140ddf8590"
+    },
+    {
+      "path": "app/showcharts_logo.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/showcharts_logo.png",
+      "size": 6079,
+      "hash": "6604c3f5ba6c8630a834a491bfdd8cc1572410c8"
+    },
+    {
+      "path": "app/tw.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/tw.png",
+      "size": 1581,
+      "hash": "16644fdc620e00f66eeaf6b774f7bdb26ec68c4f"
+    },
+    {
+      "path": "app/tw_hover.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/tw_hover.png",
+      "size": 1821,
+      "hash": "5a9560c68ba8b3c9199612a319308c972c2d59f8"
+    },
+    {
+      "path": "app/fonts/Raleway-Bold.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Raleway-Bold.ttf",
+      "size": 128248,
+      "hash": "b887eb952d1891535389db7d1d1c127d1734bd97"
+    },
+    {
+      "path": "app/fonts/Raleway-ExtraBold.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Raleway-ExtraBold.ttf",
+      "size": 125136,
+      "hash": "6db23ee9e016f3e0c30b223579026c6b00ab9ec5"
+    },
+    {
+      "path": "app/fonts/Raleway-ExtraLight.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Raleway-ExtraLight.ttf",
+      "size": 122400,
+      "hash": "06eabfa18adc2d884b83bc052f0eb2fdfc7afed4"
+    },
+    {
+      "path": "app/fonts/Raleway-Heavy.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Raleway-Heavy.ttf",
+      "size": 129520,
+      "hash": "e1fca2daacf71e1ac6e397a5bbb9ef21019768ac"
+    },
+    {
+      "path": "app/fonts/Raleway-Light.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Raleway-Light.ttf",
+      "size": 132200,
+      "hash": "e9eb86427eaa4fe7e05e32902fc35742dcee4ccb"
+    },
+    {
+      "path": "app/fonts/Raleway-Medium.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Raleway-Medium.ttf",
+      "size": 129308,
+      "hash": "6d7bd481efb4e28b13310d8f599f1a8a67b3fa87"
+    },
+    {
+      "path": "app/fonts/Raleway-Regular.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Raleway-Regular.ttf",
+      "size": 130128,
+      "hash": "f7c22a60e4bbae4e0b673de414108ec1a5a50edf"
+    },
+    {
+      "path": "app/fonts/Raleway-SemiBold.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Raleway-SemiBold.ttf",
+      "size": 130880,
+      "hash": "68b768cec3815e7d4639d5f0dec54aeff913de53"
+    },
+    {
+      "path": "app/fonts/Raleway-Thin.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Raleway-Thin.ttf",
+      "size": 123940,
+      "hash": "627bf8be5fb4fa704e13562b401ffd6b07d8696c"
+    },
+    {
+      "path": "app/images/fb.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/fb.png",
+      "size": 1451,
+      "hash": "9f01ac6e0aa4afb942888942222e078c4925c3e0"
+    },
+    {
+      "path": "app/images/fb_hover.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/fb_hover.png",
+      "size": 1621,
+      "hash": "14a4da48cf0d5c0b7f937a09ce650f0b8c5502d5"
+    },
+    {
+      "path": "app/images/g+.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/g+.png",
+      "size": 1662,
+      "hash": "249f0cd7250428b862b610ccb9dbe36128b76dd1"
+    },
+    {
+      "path": "app/images/g+_hover.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/g+_hover.png",
+      "size": 1934,
+      "hash": "559c50529df17289e3233715233b1bd7e7a0d484"
+    },
+    {
+      "path": "app/images/grid.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/grid.png",
+      "size": 1088,
+      "hash": "4e7fff0697c6d79c5dcd0aeb703092f5ad7b23c9"
+    },
+    {
+      "path": "app/images/phone_1.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/phone_1.png",
+      "size": 91555,
+      "hash": "8fd6b9e37ef249e0f2e465fcd42ef4140ddf8590"
+    },
+    {
+      "path": "app/images/showcharts_logo.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/showcharts_logo.png",
+      "size": 6079,
+      "hash": "6604c3f5ba6c8630a834a491bfdd8cc1572410c8"
+    },
+    {
+      "path": "app/images/tw.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/tw.png",
+      "size": 1581,
+      "hash": "16644fdc620e00f66eeaf6b774f7bdb26ec68c4f"
+    },
+    {
+      "path": "app/images/tw_hover.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/tw_hover.png",
+      "size": 1821,
+      "hash": "5a9560c68ba8b3c9199612a319308c972c2d59f8"
+    },
+    {
+      "path": "app/resources/grid.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/resources/grid.png",
+      "size": 1088,
+      "hash": "4e7fff0697c6d79c5dcd0aeb703092f5ad7b23c9"
+    },
+    {
+      "path": "head.html",
+      "where": "internal",
+      "type": "head",
+      "hash": "fd104b865604d8d28d95b41a0e2a84858f847598"
+    }
+  ]
+}

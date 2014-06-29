@@ -1,0 +1,1 @@
+{"version":3,"file":"/packages/twitter-streaming.js","sources":["twitter-streaming/meteor-twitter.js"],"names":[],"mappings":";;;;;;;;;;;;;;;;AAAA,2C","sourcesContent":["Twitter = Npm.require('twitter-streaming');"]}

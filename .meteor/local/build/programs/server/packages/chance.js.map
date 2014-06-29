@@ -1,0 +1,1 @@
+{"version":3,"file":"/packages/chance.js","sources":["chance/chance.js"],"names":[],"mappings":";;;;;;;;;;;;;;;;AAAA,+B","sourcesContent":["Chance = Npm.require('chance');\n"]}
