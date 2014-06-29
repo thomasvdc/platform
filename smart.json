@@ -11,6 +11,7 @@
     "autoform": {},
     "notifications": {},
     "accounts-ui-bootstrap-3": {},
-    "npm": {}
+    "npm": {},
+    "spin": {}
   }
 }

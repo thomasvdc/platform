@@ -10,6 +10,11 @@ Router.configure({
 });
 
 
+
+
+Router.onBeforeAction('loading');
+
+
 Router.map(function () {
   /*
     Example:
@@ -21,8 +26,13 @@ Router.map(function () {
       }
   });
   this.route('data', {path: '/data'});
-  this.route('dashboard', {path: '/dashboard'});
+  this.route('dashboard', {path: '/dashboard',
+
+      data: function(){
+
+  }});
   this.route('login', {path: '/login'});
   this.route('pricing', {path: '/pricing'});
   this.route('landing.page', {path: '/'});
+    this.route('privacy', {path: '/privacy'});
 });

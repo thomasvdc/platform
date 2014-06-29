@@ -318,6 +318,11 @@
       "sourceMapRoot": "packages"
     },
     {
+      "path": "packages/spin.js",
+      "sourceMap": "packages/spin.js.map",
+      "sourceMapRoot": "packages"
+    },
+    {
       "path": "packages/session.js",
       "sourceMap": "packages/session.js.map",
       "sourceMapRoot": "packages"
@@ -345,6 +350,9 @@
     },
     {
       "path": "app/server/collections/signins.js"
+    },
+    {
+      "path": "app/server/config.js"
     },
     {
       "path": "app/server/publications.js"

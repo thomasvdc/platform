@@ -14,14 +14,11 @@ Template.Login.events({
         requestPermissions: ['email', 'user_likes']
       }
       Meteor.loginWithFacebook(options, function(response){
-        debugger;        
+
         if (!response) {
-            FB.init({
-              appId  : '1502120416670141',
-              status : true,
-              xfbml  : true
-            });
-            window.location = '/dashboard';
+
+            Router.go('dashboard')
+
         }else {
           console.log('loggin did not work out');          
         }

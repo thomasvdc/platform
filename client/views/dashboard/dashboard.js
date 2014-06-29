@@ -17,6 +17,8 @@ Template.Dashboard.events({
      */
 });
 
+Session.setDefault("showLoading", true);
+
 Meteor.setInterval(function () {
 
     var sales = _.map(_.range(0, 50), function () {
@@ -35,6 +37,10 @@ Meteor.setInterval(function () {
 
 Template.Dashboard.helpers({
 
+    "loading" : function(){
+        return Session.get("showLoading");
+    },
+
     "correlation": function () {
 
         var sales = Session.get('sales');
@@ -52,7 +58,7 @@ Template.Dashboard.helpers({
         return [
             {date: "Today",
                 title: "Facebook post engagement",
-                smallDataSnippet: " 30% ractions to facebook post",
+                smallDataSnippet: " 30% reactions to facebook post",
                 graphId: "graphLeftUp",
                 smallText: "Apparently you last facebook post has an unexpected response rate compared to what's normal."}
             ,
@@ -91,9 +97,15 @@ Template.Dashboard.helpers({
 /* Dashboard: Lifecycle Hooks */
 /*****************************************************************************/
 Template.Dashboard.created = function () {
+
+    Meteor.setTimeout(function(){
+
+        Session.set('showLoading',false);
+    },2000);
 };
 
 Template.Dashboard.rendered = function () {
+
 
 
 };

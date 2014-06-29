@@ -1,21 +1,29 @@
 <template name="Dashboard">
     {{>Header}}
 
+    {{#if loading}}
+
+        {{>spinner}}
+
+    {{else}}
+
+
     <div class="row">
 
     </div>
 
 
     <div class="chartsDavy">
-        <div class=" panel  firstCard text-center infoCard">
+        <div class=" panel animated fadeInLeft firstCard text-center infoCard">
             {{>ChartLeftUp pickNthElem cardDatas 0}}
         </div>
 
 
-        <div class=" panel text-center infoCard">
+        <div class=" panel animated fadeInLeft text-center infoCard">
             {{>ChartRightUp pickNthElem cardDatas 1}}
         </div>
-        <div class=" panel  firstCard text-center infoCard ">
+
+        <div class=" panel animated fadeInLeft firstCard text-center infoCard ">
             {{>SecondRowChartLeft pickNthElem cardDatas 2}}
         </div>
     </div>
@@ -28,13 +36,14 @@
 
 
                 <!--<div class="col-lg-4 col-lg-offset-2 panel text-center infoCard">-->
-                    <!--{{>SecondRowChartRight pickNthElem cardDatas 3}}-->
+                <!--{{>SecondRowChartRight pickNthElem cardDatas 3}}-->
                 <!--</div>-->
             </div>
         </div>
     </div>
 
+    {{/if}}
 
-
+    {{>Footer}}
 
 </template>

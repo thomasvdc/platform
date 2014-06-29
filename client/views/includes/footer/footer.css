@@ -5,11 +5,16 @@
 footer {
     background-color: #F16131;
     color: #ffffff;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     right: 0;
     text-align: center; 
+}
+
+.footerElem {
+    color: #ffffff;
+    margin-right: 2%;
 }
 
 footer ul { list-style: none; }
