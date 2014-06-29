@@ -2,25 +2,30 @@
 Template.__define__("Dashboard", (function() {
   var self = this;
   var template = this;
-  return [ Spacebars.include(self.lookupTemplate("Header")), "\n    ", HTML.DIV({
-    "class": "row"
+  return [ Spacebars.include(self.lookupTemplate("Header")), HTML.Raw('\n\n    <div class="row">\n\n    </div>\n\n\n    '), HTML.DIV({
+    "class": "chartsDavy"
   }, "\n        ", HTML.DIV({
-    "class": "text-center col-lg-offset-1 col-lg-10"
-  }, HTML.Raw("\n            <h1>Key metric</h1>\n            "), HTML.H4("Your sales and your facebook likes are correlating by ", function() {
-    return Spacebars.mustache(self.lookup("correlation"));
-  }, " "), "\n        "), "\n    "), "\n\n\n    ", HTML.DIV({
-    "class": "row"
-  }, "\n        ", HTML.DIV({
-    "class": "col-lg-5 well col-lg-offset-1"
-  }, "\n\n            ", Spacebars.include(self.lookupTemplate("ChartLeftUp")), "\n\n        "), "\n\n        ", HTML.DIV({
-    "class": "col-lg-5 "
-  }, "\n\n            ", Spacebars.include(self.lookupTemplate("ChartRightUp")), "\n\n        "), "\n\n    "), "\n\n    ", HTML.DIV({
-    "class": "row"
-  }, "\n        ", HTML.DIV({
-    "class": "well col-lg-offset-1 col-lg-5"
-  }, "\n            ", Spacebars.include(self.lookupTemplate("SecondRowChartLeft")), "\n        "), "\n        ", HTML.DIV({
-    "class": "col-lg-5 well"
-  }, "\n\n            ", Spacebars.include(self.lookupTemplate("SecondRowChartRight")), "\n        "), "\n    ") ];
+    "class": " panel  firstCard text-center infoCard"
+  }, "\n            ", Spacebars.TemplateWith(function() {
+    return Spacebars.dataMustache(self.lookup("pickNthElem"), self.lookup("cardDatas"), 0);
+  }, UI.block(function() {
+    var self = this;
+    return Spacebars.include(self.lookupTemplate("ChartLeftUp"));
+  })), "\n        "), "\n\n\n        ", HTML.DIV({
+    "class": " panel text-center infoCard"
+  }, "\n            ", Spacebars.TemplateWith(function() {
+    return Spacebars.dataMustache(self.lookup("pickNthElem"), self.lookup("cardDatas"), 1);
+  }, UI.block(function() {
+    var self = this;
+    return Spacebars.include(self.lookupTemplate("ChartRightUp"));
+  })), "\n        "), "\n        ", HTML.DIV({
+    "class": " panel  firstCard text-center infoCard "
+  }, "\n            ", Spacebars.TemplateWith(function() {
+    return Spacebars.dataMustache(self.lookup("pickNthElem"), self.lookup("cardDatas"), 2);
+  }, UI.block(function() {
+    var self = this;
+    return Spacebars.include(self.lookupTemplate("SecondRowChartLeft"));
+  })), "\n        "), "\n    "), HTML.Raw('\n\n    <div class="row">\n        <div class="col-lg-10 col-lg-offset-1">\n\n            <div class="row">\n\n\n\n                <!--<div class="col-lg-4 col-lg-offset-2 panel text-center infoCard">-->\n                    <!--{{>SecondRowChartRight pickNthElem cardDatas 3}}-->\n                <!--</div>-->\n            </div>\n        </div>\n    </div>') ];
 }));
 
 })();

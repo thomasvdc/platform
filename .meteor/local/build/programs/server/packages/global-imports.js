@@ -3,7 +3,6 @@
 RouteController = Package['iron-router'].RouteController;
 Route = Package['iron-router'].Route;
 Router = Package['iron-router'].Router;
-Facebook = Package['facebook-sdk'].Facebook;
 Twitter = Package['twitter-streaming'].Twitter;
 Chance = Package.chance.Chance;
 numeral = Package.numeral.numeral;

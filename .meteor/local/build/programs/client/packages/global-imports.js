@@ -4,7 +4,6 @@ RouteController = Package['iron-router'].RouteController;
 Route = Package['iron-router'].Route;
 Router = Package['iron-router'].Router;
 IronLocation = Package['iron-router'].IronLocation;
-Facebook = Package['facebook-sdk'].Facebook;
 Twitter = Package['twitter-streaming'].Twitter;
 d3 = Package.d3.d3;
 numeral = Package.numeral.numeral;
